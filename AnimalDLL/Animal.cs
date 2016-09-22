@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace AnimalDLL
 {
-    public class Class1
+    public abstract class Animal
     {
+        public string Color { get; set; }
+
+        public string Weight { get; set; }
     }
+
+    
 }
